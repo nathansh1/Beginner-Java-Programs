@@ -53,7 +53,7 @@ public class Gym{
                 sum += scores.get(a);
             }
             double avg = sum/scores.size();
-            out.println("Competitor #1 average score: " + fmt.format(avg));
+            out.println("Competitor #" + (j+1) +  " average score: " + fmt.format(avg));
         }
     }
 }
